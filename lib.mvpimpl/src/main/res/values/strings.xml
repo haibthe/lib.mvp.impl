@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LibMvpImpl</string>
+
+    <string name="button_close">close</string>
+</resources>
