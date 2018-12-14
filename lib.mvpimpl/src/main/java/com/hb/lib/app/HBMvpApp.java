@@ -21,7 +21,11 @@ public class HBMvpApp extends Application
         LifecycleDelegate, OnActivityCurrentListener {
 
 
-    public static HBMvpApp instance;
+    private static HBMvpApp instance;
+
+    public static <T extends HBMvpApp> T getInstance() {
+        return (T) instance;
+    }
 
     public static String folder;
 
@@ -38,6 +42,7 @@ public class HBMvpApp extends Application
         super.attachBaseContext(base);
         MultiDex.install(this);
     }
+
 
     @Override
     public void onCreate() {
