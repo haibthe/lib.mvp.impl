@@ -1,5 +1,6 @@
 package com.hb.lib.mvp.impl
 
+import com.hb.lib.data.IDataManager
 import com.hb.lib.mvp.base.MvpBasePresenter
 import com.hb.lib.mvp.base.MvpContract
 import com.hb.lib.utils.RxBus
@@ -16,5 +17,7 @@ abstract class HBMvpPresenter<V : MvpContract.View> : MvpBasePresenter<V>() {
     @Inject
     lateinit var disposable: CompositeDisposable
 
+    @Inject
+    lateinit var dataManager: IDataManager
 
 }

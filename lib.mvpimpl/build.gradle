@@ -29,7 +29,7 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     //
-    implementation 'com.github.haibthe:lib.utils:1.0.0'
+    implementation 'com.github.haibthe:lib.utils:1.0.1'
     implementation 'com.github.haibthe:lib.mvp:1.0.0'
 
     // Android Lib
