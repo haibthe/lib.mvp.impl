@@ -1,9 +1,9 @@
 package com.hb.lib.mvp.impl
 
 import android.os.Bundle
-import android.support.design.widget.Snackbar
 import android.view.View
 import butterknife.ButterKnife
+import com.google.android.material.snackbar.Snackbar
 import com.hb.lib.app.OnActivityCurrentListener
 import com.hb.lib.mvp.base.MvpActivity
 import com.hb.lib.mvp.base.MvpContract
