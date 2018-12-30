@@ -20,4 +20,7 @@ abstract class HBMvpPresenter<V : MvpContract.View> : MvpBasePresenter<V>() {
     @Inject
     lateinit var dataManager: IDataManager
 
+    fun<T : IDataManager> dataManager(): T {
+        return dataManager as T
+    }
 }
