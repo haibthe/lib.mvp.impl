@@ -30,7 +30,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     //
     implementation 'com.github.haibthe:lib.utils:1.0.2'
-    implementation 'com.github.haibthe:lib.mvp:1.0.2'
+    implementation 'com.github.haibthe:lib.mvp:1.0.3'
 
     // Android Lib
     implementation "androidx.appcompat:appcompat:1.1.0-alpha01"
@@ -44,8 +44,8 @@ dependencies {
     implementation 'com.google.dagger:dagger-android-support:2.15'
 
     // Butter Knife
-    implementation 'com.jakewharton:butterknife:8.8.1'
-    kapt 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    kapt 'com.jakewharton:butterknife-compiler:10.0.0'
     // Timber
     implementation 'com.jakewharton.timber:timber:4.7.1'
 
